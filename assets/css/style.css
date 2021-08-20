@@ -1,0 +1,82 @@
+/* Global styles */
+
+body {
+    background: url(/assets/images/wood.png) no-repeat;
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Header  & footer */
+
+header, footer {
+    float: right;
+    color: white;
+}
+
+a {
+    color:inherit !important;
+    margin: 5px 5px;
+  }
+
+
+
+
+/* logo */
+
+.logo {
+    background:#FFF;
+    padding: 2px 2px;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+/* Card area and individual cards */
+#card-area {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.card {
+    background: #484141;
+    color: white;
+    font-size: 70px;
+    padding: 50px 40px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+/* Dice area */
+
+#dice-area {
+    width: 30%;
+    padding: 30px 30px;
+    margin: auto;
+    text-align: center;
+    background: #156350;
+    border: 1px solid #0A5170;
+    box-sizing: border-box;
+    box-shadow: inset 8px 8px 4px 2px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.dice-one img{
+    width: 50%;
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding-left: 100px;
+}
+.dice-two img{
+    width: 50%;
+    float: right;
+    height: 50px;
+    width: 50px;
+    padding-right: 100px;
+}
