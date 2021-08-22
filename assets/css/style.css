@@ -52,6 +52,11 @@ a {
     text-align: center; 
 }
 
+.card:hover {
+    background: white;
+    color: #484141;
+}
+
 /* Dice area */
 
 #dice-area {
