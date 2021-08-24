@@ -1,43 +1,4 @@
 
-
-// // Wait for the DOM to finish loading before running the game
-// document.addEventListener("DOMContentLoaded",runGame);
-
-
-
-
-// When a player selects a card, sum the cards to then be able to check against the dice total. 
-
-// let cards =document.getElementsByClassName('card');
-
-
-// function cardSelect() {
-//     this.style.backgroundColor= "red";
-//     let cardValue= (this.textContent);
-//     console.log(cardValue);
- 
-// }
-
-// // for loop for click events:
-// for (let i=0; i < cards.length; i++) {
-//     cards[i].addEventListener('click', cardSelect);}
-
-// function createArray(){
-//     cardArray =[];
-//     cardArray.push(cardValue);
-//     console.log(cardArray);}
-
-// disable card once you've clicked roll again (or submit) and cards match the dice.
-
-function cardDisable() {
-
-}
-
-
-
-
-
-
 // change dice image to random calcualted number.
 
 function rollDice() {
@@ -56,7 +17,6 @@ function rollDice() {
    
 
 }
-
 
 let diceInstructions = document.getElementById('dice-instructions');
 diceInstructions.addEventListener('click', rollDice);
@@ -92,3 +52,30 @@ let submitAnswer = document.getElementById('submit-answer');
 submitAnswer.addEventListener('click', userAnswer);
 
 
+
+// // Wait for the DOM to finish loading before running the game
+// document.addEventListener("DOMContentLoaded",runGame);
+
+
+
+
+// When a player selects a card, sum the cards to then be able to check against the dice total. 
+
+// let cards =document.getElementsByClassName('card');
+
+
+// function cardSelect() {
+//     this.style.backgroundColor= "red";
+//     let cardValue= (this.textContent);
+//     console.log(cardValue);
+ 
+// }
+
+// // for loop for click events:
+// for (let i=0; i < cards.length; i++) {
+//     cards[i].addEventListener('click', cardSelect);}
+
+// function createArray(){
+//     cardArray =[];
+//     cardArray.push(cardValue);
+//     console.log(cardArray);}
