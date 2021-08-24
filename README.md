@@ -50,7 +50,7 @@ I created a logo that is a simple line drawing of an open box with the title of 
 
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
-|[Home Page](wireframes/home_desktop.png)|[Home Page](wireframes/home_tablet.png)|[Home Page](readmeimages/home-mobile.png)
+|[Home Page](readmeimages/desktop-home.png)|[Home Page](readmeimages/tablet-home.png)|[Home Page](readmeimages/home-mobile.png)
 
 ## Other states of play:
 
