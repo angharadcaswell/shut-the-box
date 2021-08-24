@@ -161,9 +161,9 @@ To clone the site:
 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
+## 9. Bugs:
 
-
-## 7. Credits:
+## 8. Credits:
 
 ## Media
 
