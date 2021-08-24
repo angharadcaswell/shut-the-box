@@ -121,3 +121,13 @@ li {
     border-radius: 5px;
     text-align: center; 
 }
+
+.closed {
+    background: gray;
+    color: gray;
+    font-size: 70px;
+    padding: 50px 40px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center; 
+}

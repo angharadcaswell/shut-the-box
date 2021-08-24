@@ -60,23 +60,29 @@ function cardDisable(){
 
     console.log(cardArray);
     console.log(sum);
-    checkAnswer();
-
-}
-
-
-
-function checkAnswer() {
-
-    let isCorrect = sum === diceTotal;
-   console.log("sum = " +sum);
-   console.log("diceTotal = " +diceTotal);
-    if (isCorrect) {
+   
+    if (sum === diceTotal) {
         console.log("Correct!");
+        document.getElementById("dice-instructions").innerHTML= `Nice one! Roll again!`
+
+        for (let i=0; i < cardActive.length; i++){
+        cardActive[i].classList.add("closed");
+        cardActive[i].classList.remove("active");};
+
+    } else if (sum < diceTotal){
+        console.log("select another card!")
     } else {
         console.log("Wrong");
+        document.getElementById("dice-instructions").innerHTML= `The numbers your selected don't add up to ${diceTotal}. Try another card!`
     }
+
 }
+
+
+// Check if game is finished by looking for an empty array of card classes. 
+// Be able to deselect cards
+// If the cards with class card don't add up to dice then game ends. 
+
 
 
 
