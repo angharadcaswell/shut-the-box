@@ -2,7 +2,9 @@
 // change dice image to random calcualted number.
 
 function rollDice() {
-
+    var diceAudio = new Audio ('');
+    diceAudio.play();
+   
     let diceOneImg = document.getElementById('dice-one');
     let diceTwoImg = document.getElementById('dice-two');
 
@@ -20,6 +22,8 @@ function rollDice() {
 
 let diceInstructions = document.getElementById('dice-instructions');
 diceInstructions.addEventListener('click', rollDice);
+
+
 
 
 
