@@ -3,8 +3,6 @@
 // change dice image to random calculated number.
 
 function rollDice() {
-    var diceAudio = new Audio ('');
-    diceAudio.play();
    
     let diceOneImg = document.getElementById('dice-one');
     let diceTwoImg = document.getElementById('dice-two');
@@ -16,10 +14,12 @@ function rollDice() {
     diceOneImg.src =`assets/images/dice${diceOne}.png`;
     diceTwoImg.src =`assets/images/dice${diceTwo}.png`;
 
+    checkAnswer()
     console.log(diceTotal);
    
 
 }
+
 
 let diceInstructions = document.getElementById('dice-instructions');
 diceInstructions.addEventListener('click', rollDice);
@@ -43,21 +43,38 @@ for (let i=0; i < cards.length; i++) {
     cards[i].addEventListener('click', cardSelect);}
 
 // Sum all card in "selected" class and then add to "disabled" class if it equals the dice roll
-
+let sum = 0
 function cardDisable(){
     let cardActive = document.getElementsByClassName("active");
     let cardArray= [];
+    sum = 0
     for (let i=0; i < cardActive.length; i++){
         cardArray.push(parseInt(cardActive[i].textContent));
     }
-
+    for (let i= 0; i < cardActive.length; i++){
+    sum += cardArray[i];
+    }
+ 
 
     console.log(cardArray);
+    console.log(sum);
 
 }
 
+// Compare dice total with user answer:
 
+function checkAnswer() {
 
+    let isCorrect = sum === diceTotal;
+
+    if (isCorrect) {
+        alert("Correct!");
+    } else {
+        alert ("Wrong");
+    }
+    console.log(userAnswer);
+
+}
 
 
 
@@ -87,30 +104,3 @@ function cardDisable(){
 // submitAnswer.addEventListener('click', userAnswer);
 
 
-
-// // Wait for the DOM to finish loading before running the game
-// document.addEventListener("DOMContentLoaded",runGame);
-
-
-
-
-// When a player selects a card, sum the cards to then be able to check against the dice total. 
-
-// let cards =document.getElementsByClassName('card');
-
-
-// function cardSelect() {
-//     this.style.backgroundColor= "red";
-//     let cardValue= (this.textContent);
-//     console.log(cardValue);
- 
-// }
-
-// // for loop for click events:
-// for (let i=0; i < cards.length; i++) {
-//     cards[i].addEventListener('click', cardSelect);}
-
-// function createArray(){
-//     cardArray =[];
-//     cardArray.push(cardValue);
-//     console.log(cardArray);}
