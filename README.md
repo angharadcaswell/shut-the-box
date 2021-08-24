@@ -104,3 +104,75 @@ I created a logo that is a simple line drawing of an open box with the title of 
 * [Font Awesome](https://fontawesome.com/) - Embed icons.
 * [Google Fonts](https://fonts.google.com/) - Select and embed fonts
 * [Am I responsive?](http://ami.responsivedesign.is/#)- To see display the website as mock ups  
+
+# 5. Testing 
+
+## Code test:
+### Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) to check HTML content.
+![index validated]()
+![home validated]()
+
+### Used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to test CCS stylesheet.
+![CSS style validated]()
+
+### Used [JSHint Javascript Validator](https://jshint.com/) to test Javascript.
+![JS validated]()
+
+
+## Design test: 
+### Lighthouse in Devs tools to check fonts and colors are accessible. 
+
+## Browser test: 
+### I have check the application works in browsers: Chrome, Firefox, Safari.
+
+## User Story:
+###  [User stories with screenshots](user-story.md)
+
+## 6. Deployment
+
+How I deploy to Github pages for the first time:
+
+Go to [GitHub.com](Github.com)
+
+1. Log into Github account
+
+2. Click on ‘Repositories’
+
+3. Click on 'shut-the-box'
+
+4. Click on ‘Settings’
+
+5. Go to ‘Github Pages’ section.
+
+6. Under the ‘Source’ select ‘Master Branch’. Then click 'save'
+
+7. Refresh page and scroll to 'Github pages' and you will find a link has been created. The websit is deployed.
+
+More information on how to deploy to Github pages can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+To clone the site:
+
+1. Select the 'shut-the-box' repository.
+2. Click on ‘Clone or download’
+3. Click on the clipboard icon
+4. Open repo or create new repo
+5. Open terminal
+6. Type git clone and paste URL link and press enter.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+
+
+## 7. Credits:
+
+## Media
+
+## Acknowledgments:
+* My mentor[Precious](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for your help and guidance. 
+* [Code Institute](https://codeinstitute.net/) student support, slack community and tutorials. 
+
+
+
+
+
+
