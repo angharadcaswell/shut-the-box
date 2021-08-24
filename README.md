@@ -50,9 +50,18 @@ I created a logo that is a simple line drawing of an open box with the title of 
 
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
-|[Home Page](wireframes/home_desktop.png)|[Home Page](wireframes/home_tablet.png)|[Home Page](readmeimages/home-mobile.png)|
+|[Home Page](wireframes/home_desktop.png)|[Home Page](wireframes/home_tablet.png)|[Home Page](readmeimages/home-mobile.png)
 
-Other states:
+## Other states of play:
 
 ### Game complete:
-![Game complete wireframe]()
+![Game complete wireframe](readmeimages/box-closed-mobile.png)
+
+### Wrong selection made:
+![Wrong selection](readmeimages/wrong-selection-mobile.png)
+
+### Play runs out of cards to close (end of game):
+![No options left](readmeimages/no-option-mobile.png)
+
+### Help page:
+![Help page](readmeimages/help.png)
