@@ -1,5 +1,6 @@
 
-// change dice image to random calcualted number.
+
+// change dice image to random calculated number.
 
 function rollDice() {
     var diceAudio = new Audio ('');
@@ -23,7 +24,37 @@ function rollDice() {
 let diceInstructions = document.getElementById('dice-instructions');
 diceInstructions.addEventListener('click', rollDice);
 
+// Find clicked cards and add to "selected" class
 
+let cards =document.getElementsByClassName('card');
+
+
+function cardSelect() {
+
+    let cardValue= (this.textContent);
+    console.log(cardValue);
+    this.classList.add("active");
+    this.classList.remove("card");
+    cardDisable();
+ 
+}
+// for loop for click events:
+for (let i=0; i < cards.length; i++) {
+    cards[i].addEventListener('click', cardSelect);}
+
+// Sum all card in "selected" class and then add to "disabled" class if it equals the dice roll
+
+function cardDisable(){
+    let cardActive = document.getElementsByClassName("active");
+    let cardArray= [];
+    for (let i=0; i < cardActive.length; i++){
+        cardArray.push(parseInt(cardActive[i].textContent));
+    }
+
+
+    console.log(cardArray);
+
+}
 
 
 
@@ -33,27 +64,27 @@ diceInstructions.addEventListener('click', rollDice);
 // Get input numbers from users and check answer against dice total: 
 
 
-function userAnswer(){
-    let answerOne = parseInt(document.getElementById('answer-one').value);
-    let answerTwo = parseInt(document.getElementById('answer-two').value);
-    let answerThree = parseInt(document.getElementById('answer-three').value);
-    let answer= answerOne + answerTwo + answerThree;
+// function userAnswer(){
+//     let answerOne = parseInt(document.getElementById('answer-one').value);
+//     let answerTwo = parseInt(document.getElementById('answer-two').value);
+//     let answerThree = parseInt(document.getElementById('answer-three').value);
+//     let answer= answerOne + answerTwo + answerThree;
     
 
-    let diceAnswer = rollDice();
+//     let diceAnswer = rollDice();
 
-    let isCorrect = answer === diceAnswer;
+//     let isCorrect = answer === diceAnswer;
 
-    if (isCorrect) {
-        alert("Correct!");
-    } else {
-        alert ("Wrong");
-    }
-    console.log(answer);
-}
+//     if (isCorrect) {
+//         alert("Correct!");
+//     } else {
+//         alert ("Wrong");
+//     }
+//     console.log(answer);
+// }
 
-let submitAnswer = document.getElementById('submit-answer');
-submitAnswer.addEventListener('click', userAnswer);
+// let submitAnswer = document.getElementById('submit-answer');
+// submitAnswer.addEventListener('click', userAnswer);
 
 
 

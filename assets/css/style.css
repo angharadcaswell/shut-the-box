@@ -111,3 +111,13 @@ ol {
 li {
     padding-bottom: 5px;
 }
+
+.active {
+    background: red;
+    color: white;
+    font-size: 70px;
+    padding: 50px 40px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center; 
+}
