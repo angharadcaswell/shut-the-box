@@ -65,3 +65,42 @@ I created a logo that is a simple line drawing of an open box with the title of 
 
 ### Help page:
 ![Help page](readmeimages/help.png)
+
+
+# 3. Features
+
+## 3.1 All features
+
+1. Homepage
+* Where the game is played
+* Link to help page
+* Link to refresh game
+2. Dice roll area
+* Button to roll dice
+3. Card flip area
+* 9 cards to be clicked and "closed" by the user 
+4. Help page
+* "How to play" rules and example of game with images.
+5. Refresh button
+* Button to restart the game without finishing the game.
+6. Shut the Box logo
+
+## 3.2 Features to implement:
+1. 2 player game
+2. Play against the computer
+3. Scoreboard and user name
+
+
+
+# 4. Technologies used 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - Content and structure
+* [CSS](https://en.wikipedia.org/wiki/CSS) - Style my website
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript
+* [Gitpod](https://www.gitpod.io/) - Coding workspace
+* [Github/ Github pages](https://github.com/)- Commit and deploy my code
+* [Bootstrap](https://getbootstrap.com/) - Responsive grids
+* [WebAim](https://webaim.org/resources/contrastchecker/) - Color contract check
+* [Figma](https://www.figma.com/about/) - Design wirframes and prototypes
+* [Font Awesome](https://fontawesome.com/) - Embed icons.
+* [Google Fonts](https://fonts.google.com/) - Select and embed fonts
+* [Am I responsive?](http://ami.responsivedesign.is/#)- To see display the website as mock ups  
