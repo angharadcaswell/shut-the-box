@@ -101,7 +101,7 @@ a {
 /* help box area */
 
 #help-page {
-    width: 70%;
+    width: 90%;
     margin: auto;
     padding: 20px 20px;
     background: #156350;
@@ -149,14 +149,13 @@ li {
 
 /* Card area and individual cards */
 #card-area {
-    width: 80%;
+    width: 90%;
 }
 
 .card, .active, .closed {
     font-size: 30px;
     padding: 10px 10px;
     margin: 10px;
-
 }
 
 #dice-area {
@@ -166,16 +165,7 @@ li {
 
 }
 
-.dice-one img{
-    height: 50px !important;
-    width: 50px !important;
-    padding-left: 50px;
-}
-.dice-two img{
-    height: 50px !important;
-    width: 50px !important;
-    padding-right: 50px;
-}
+
 
 
 }
