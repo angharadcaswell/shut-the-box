@@ -33,6 +33,7 @@ function cardSelect() {
     this.classList.add("active");
     this.classList.remove("card");
     cardDisable();
+    
    for (let i=0; i < cardActive.length; i++) {
     cardActive[i].addEventListener('click', cardDeselect);}
 }
@@ -48,6 +49,7 @@ function cardDeselect() {
   console.log(cardActive);
     this.classList.add("card");
     this.classList.remove("active");
+    cardSelect();
    
 }
 
@@ -95,7 +97,7 @@ function closeBox() {
     let cardClosed = document.getElementsByClassName("closed").length;
     if (cardClosed=== 9) {
         document.getElementById("dice-instructions").innerHTML= `Congratulations you've closed the box!!!`;
-  
+        
     }
     // console.log(cardClosed);
 }
@@ -109,4 +111,9 @@ function closeBox() {
 // responsive design
 
 
+let restart= document.getElementById('restart');
+function refreshGame(){
+  window.location.href= ""
+}
+restart.addEventListener('click', refreshGame);
 
