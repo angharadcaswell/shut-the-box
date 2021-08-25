@@ -63,11 +63,17 @@ function cardDisable(){
    
     if (sum === diceTotal) {
         console.log("Correct!");
-        document.getElementById("dice-instructions").innerHTML= `Nice one! Roll again!`
-
         for (let i=0; i < cardActive.length; i++){
         cardActive[i].classList.add("closed");
-        cardActive[i].classList.remove("active");};
+       };
+      
+        let els = document.querySelectorAll('.active');
+      
+        for (var i = 0; i < els.length; i++) {
+        els[i].classList.remove('active')
+        };   
+
+  document.getElementById("dice-instructions").innerHTML= `Nice one! Roll again!`;
 
     } else if (sum < diceTotal){
         console.log("select another card!")
@@ -87,4 +93,4 @@ function cardDisable(){
 
 
 
-
+// cardActive[i].classList.remove("active");
