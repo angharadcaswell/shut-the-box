@@ -26,20 +26,35 @@ diceInstructions.addEventListener('click', rollDice);
 
 // Find clicked cards and add to "active" class
 
+// Find clicked cards and add to "active" class
+
 let cards =document.getElementsByClassName('card');
 function cardSelect() {
     this.classList.add("active");
     this.classList.remove("card");
     cardDisable();
+   for (let i=0; i < cardActive.length; i++) {
+    cardActive[i].addEventListener('click', cardDeselect);}
 }
 // for loop for click events:
 for (let i=0; i < cards.length; i++) {
     cards[i].addEventListener('click', cardSelect);}
 
+
+// Deactivate cards back to card class if the user has selected the wrong one.
+let cardActive = document.getElementsByClassName('active');
+
+function cardDeselect() {
+  console.log(cardActive);
+    this.classList.add("card");
+    this.classList.remove("active");
+   
+}
+
 // Create array of all cards with "active" class. Sum all cards in the array and compare answer to the dice roll total. If correct, change class of card to "closed".
 
 function cardDisable(){
-    let cardActive = document.getElementsByClassName("active");
+    // let cardActive = document.getElementsByClassName("active");
     let cardArray= [];
     sum = 0
     for (let i=0; i < cardActive.length; i++){
@@ -89,6 +104,9 @@ function closeBox() {
 // Be able to deselect cards
 // If the cards with class card don't add up to dice then game ends. 
 // refresh game
+// add audio
+// CSS styling 
+// responsive design
 
 
 

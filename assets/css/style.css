@@ -21,9 +21,6 @@ a {
     margin: 5px 5px;
   }
 
-
-
-
 /* logo */
 
 .logo {
@@ -113,7 +110,7 @@ li {
 }
 
 .active {
-    background: red;
+    background: #506d70;
     color: white;
     font-size: 70px;
     padding: 50px 40px;
