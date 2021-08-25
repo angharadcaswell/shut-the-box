@@ -1,7 +1,9 @@
+// Global variables
+
 let diceTotal = 0;
 let sum = 0;
 
-// change dice image to random calculated number.
+// Change dice image to random calculated number.
 
 function rollDice() {
    
@@ -16,35 +18,25 @@ function rollDice() {
     diceTwoImg.src =`assets/images/dice${diceTwo}.png`;
 
     // console.log(diceTotal);
-   
-    
-   
 
 }
-
 
 let diceInstructions = document.getElementById('dice-instructions');
 diceInstructions.addEventListener('click', rollDice);
 
-// Find clicked cards and add to "selected" class
+// Find clicked cards and add to "active" class
 
 let cards =document.getElementsByClassName('card');
-
-
 function cardSelect() {
-
-    let cardValue= (this.textContent);
-    // console.log(cardValue);
     this.classList.add("active");
     this.classList.remove("card");
     cardDisable();
- 
 }
 // for loop for click events:
 for (let i=0; i < cards.length; i++) {
     cards[i].addEventListener('click', cardSelect);}
 
-// Sum all card in "selected" class and then add to "disabled" class if it equals the dice roll
+// Create array of all cards with "active" class. Sum all cards in the array and compare answer to the dice roll total. If correct, change class of card to "closed".
 
 function cardDisable(){
     let cardActive = document.getElementsByClassName("active");
@@ -56,8 +48,6 @@ function cardDisable(){
     for (let i= 0; i < cardActive.length; i++){
     sum += cardArray[i];
     }
- 
-
     // console.log(cardArray);
     // console.log(sum);
    
@@ -67,10 +57,10 @@ function cardDisable(){
         cardActive[i].classList.add("closed");
        };
       
-        let els = document.querySelectorAll('.active');
+        let active = document.querySelectorAll('.active');
       
-        for (var i = 0; i < els.length; i++) {
-        els[i].classList.remove('active')
+        for (var i = 0; i < active.length; i++) {
+        active[i].classList.remove('active')
         };   
 
   document.getElementById("dice-instructions").innerHTML= `Nice one! Roll again!`;
@@ -84,6 +74,8 @@ function cardDisable(){
     closeBox();
 }
 
+// When all the cards have been changed to the "closed" class the game is complete.
+
 function closeBox() {
     let cardClosed = document.getElementsByClassName("closed").length;
     if (cardClosed=== 9) {
@@ -94,13 +86,9 @@ function closeBox() {
 }
 
 
-
-// Check if game is finished by looking for an empty array of card classes. 
 // Be able to deselect cards
 // If the cards with class card don't add up to dice then game ends. 
+// refresh game
 
 
 
-
-
-// cardActive[i].classList.remove("active");
