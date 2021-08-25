@@ -80,13 +80,13 @@ function cardDisable(){
         active[i].classList.remove('active')
         };   
 
-  document.getElementById("dice-instructions").innerHTML= `Nice one! Roll again!`;
+  document.getElementById("dice-instructions").innerHTML= `🎲 🎲 🎲 Nice one! Roll again!`;
 
     } else if (sum < diceTotal){
         // console.log("select another card!")
     } else {
         // console.log("Wrong");
-        document.getElementById("dice-instructions").innerHTML= `The numbers your selected don't add up to ${diceTotal}. Try another card!`;
+        document.getElementById("dice-instructions").innerHTML= `🚨🚨🚨 The numbers you selected don't add up to ${diceTotal}. Try another card!`;
     }
     closeBox();
 }
@@ -96,19 +96,10 @@ function cardDisable(){
 function closeBox() {
     let cardClosed = document.getElementsByClassName("closed").length;
     if (cardClosed=== 9) {
-        document.getElementById("dice-instructions").innerHTML= `Congratulations you've closed the box!!!`;
-        
+        document.getElementById("dice-instructions").innerHTML= `💥💥💥 Congratulations, you closed the box!!!`;       
     }
     // console.log(cardClosed);
 }
-
-
-// Be able to deselect cards
-// If the cards with class card don't add up to dice then game ends. 
-// refresh game
-// add audio
-// CSS styling 
-// responsive design
 
 
 let restart= document.getElementById('restart');
@@ -116,4 +107,11 @@ function refreshGame(){
   window.location.href= ""
 }
 restart.addEventListener('click', refreshGame);
+
+// Be able to deselect cards
+// If the cards with class card don't add up to dice then game ends. 
+// add audio
+// responsive design
+// accessibility
+
 
