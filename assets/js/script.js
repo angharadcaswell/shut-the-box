@@ -15,7 +15,7 @@ function rollDice() {
     diceOneImg.src =`assets/images/dice${diceOne}.png`;
     diceTwoImg.src =`assets/images/dice${diceTwo}.png`;
 
-    console.log(diceTotal);
+    // console.log(diceTotal);
    
     
    
@@ -34,7 +34,7 @@ let cards =document.getElementsByClassName('card');
 function cardSelect() {
 
     let cardValue= (this.textContent);
-    console.log(cardValue);
+    // console.log(cardValue);
     this.classList.add("active");
     this.classList.remove("card");
     cardDisable();
@@ -58,11 +58,11 @@ function cardDisable(){
     }
  
 
-    console.log(cardArray);
-    console.log(sum);
+    // console.log(cardArray);
+    // console.log(sum);
    
     if (sum === diceTotal) {
-        console.log("Correct!");
+        // console.log("Correct!");
         for (let i=0; i < cardActive.length; i++){
         cardActive[i].classList.add("closed");
        };
@@ -76,13 +76,23 @@ function cardDisable(){
   document.getElementById("dice-instructions").innerHTML= `Nice one! Roll again!`;
 
     } else if (sum < diceTotal){
-        console.log("select another card!")
+        // console.log("select another card!")
     } else {
-        console.log("Wrong");
-        document.getElementById("dice-instructions").innerHTML= `The numbers your selected don't add up to ${diceTotal}. Try another card!`
+        // console.log("Wrong");
+        document.getElementById("dice-instructions").innerHTML= `The numbers your selected don't add up to ${diceTotal}. Try another card!`;
     }
-
+    closeBox();
 }
+
+function closeBox() {
+    let cardClosed = document.getElementsByClassName("closed").length;
+    if (cardClosed=== 9) {
+        document.getElementById("dice-instructions").innerHTML= `Congratulations you've closed the box!!!`;
+  
+    }
+    // console.log(cardClosed);
+}
+
 
 
 // Check if game is finished by looking for an empty array of card classes. 
