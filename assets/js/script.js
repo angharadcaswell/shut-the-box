@@ -113,5 +113,5 @@ restart.addEventListener('click', refreshGame);
 // add audio
 // responsive design
 // accessibility
-
+// example for help page
 

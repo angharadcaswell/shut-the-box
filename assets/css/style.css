@@ -72,15 +72,15 @@ a {
 .dice-one img{
     width: 50%;
     float: left;
-    height: 50px;
-    width: 50px;
+    height: 50px !important;
+    width: 50px !important;
     padding-left: 100px;
 }
 .dice-two img{
     width: 50%;
     float: right;
-    height: 50px;
-    width: 50px;
+    height: 50px !important;
+    width: 50px !important;
     padding-right: 100px;
 }
 
@@ -101,7 +101,7 @@ a {
 /* help box area */
 
 #help-page {
-    width: 50%;
+    width: 70%;
     margin: auto;
     padding: 20px 20px;
     background: #156350;
@@ -136,4 +136,46 @@ li {
     margin: 10px;
     border-radius: 5px;
     text-align: center; 
+}
+
+
+/* Tablets: Responsive for screens smaller than 768px */
+
+@media screen and (max-width:768px){
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+
+/* Card area and individual cards */
+#card-area {
+    width: 80%;
+}
+
+.card, .active, .closed {
+    font-size: 30px;
+    padding: 10px 10px;
+    margin: 10px;
+
+}
+
+#dice-area {
+    width: 70%;
+    padding: 20px 20px;
+    margin: auto;
+
+}
+
+.dice-one img{
+    height: 50px !important;
+    width: 50px !important;
+    padding-left: 50px;
+}
+.dice-two img{
+    height: 50px !important;
+    width: 50px !important;
+    padding-right: 50px;
+}
+
+
 }
