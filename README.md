@@ -109,11 +109,11 @@ I created a logo that is a simple line drawing of an open box with the title of 
 
 ## Code test:
 ### Used [W3C HTML validator](https://validator.w3.org/#validate_by_input) to check HTML content.
-![index validated]()
 ![home validated]()
+![help validated](readmeimages/help-html.png)
 
 ### Used [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to test CCS stylesheet.
-![CSS style validated]()
+![CSS style validated](readmeimages/css-check.png)
 
 ### Used [JSHint Javascript Validator](https://jshint.com/) to test Javascript.
 ![JS validated]()
@@ -166,6 +166,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ## 8. Credits:
 
 ## Media
+Background image - Photo by FWStudio from Pexels
 
 ## Acknowledgments:
 * My mentor[Precious](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for your help and guidance. 

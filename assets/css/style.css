@@ -1,7 +1,7 @@
 /* Global styles */
 
 body {
-    background: url(/assets/images/wood.png) no-repeat;
+    background: url('/assets/images/wood-background.jpg') no-repeat;
     background-size: cover;
     font-family: "Raleway", sans-serif;
     color: white;

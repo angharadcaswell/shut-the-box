@@ -107,4 +107,5 @@ restart.addEventListener('click', refreshGame);
 // add audio
 
 // tests and bugs
+// Add correct background image
 
