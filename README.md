@@ -11,10 +11,9 @@ Build an application to play Shut the Box game online.
 2. As a user, I want to be taught how to play the game.
 3. As a user, I want to feel excited when I win the game. 
 4. As a user, I want to be able to refresh the game at any point. 
-5. As a user, I want the game to be appealing and easy to use. 
-6. As a user with impaired vision, I need the game to work with a screen reader. 
-7. As a user, I want to be able to navigate easily between the homepage and the help page. 
-8. As a user, I would like to see my final score.
+5. As a user, I want the game to be appealing and easy to use.  
+6. As a user, I want to be able to navigate easily between the homepage and the help page. 
+7. As a user, I would like to see my final score.
 
 ## 2.2 Design
 

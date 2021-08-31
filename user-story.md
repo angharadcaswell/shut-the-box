@@ -18,15 +18,15 @@
 
 ## As a user, I want to be able to refresh the game at any point.
 
-![game]()
+### The user can refresh the game by pressing the button on the homepage.
+
+![game](readmeimages/refresh.png)
 
 ## As a user, I want the game to be appealing and easy to use. 
 
-![game]()
+### The application has a simple layout that is not distracting. It is also kept within the theme of the wooden box.
+![game](readmeimages/game.png)
 
-## As a user with impaired vision, I need the game to work with a screen reader. 
-
-![game]()
 
 ## As a user, I want to be able to navigate easily between the homepage and the help page. 
 

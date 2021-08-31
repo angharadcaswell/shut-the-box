@@ -103,9 +103,8 @@ function refreshGame(){
 restart.addEventListener('click', refreshGame);
 
 // Be able to deselect cards
-// If the cards with class card don't add up to dice then game ends. 
+// Final score
 // add audio
-
 // tests and bugs
-// Add correct background image
+
 

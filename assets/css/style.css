@@ -35,7 +35,7 @@ a {
 
 /* Card area and individual cards */
 #card-area {
-    width: 95%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -147,7 +147,9 @@ li {
 }
 
 /* Card area and individual cards */
-
+#card-area {
+    width: 95%;
+}
 
 .card-click, .active, .closed {
     font-size: 35px;
