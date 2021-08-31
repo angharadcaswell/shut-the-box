@@ -40,7 +40,7 @@ a {
     margin: auto;
     text-align: center;
 }
-.card {
+.card-click {
     background: #484141;
     color: white;
     font-size: 70px;
@@ -50,7 +50,7 @@ a {
     text-align: center; 
 }
 
-.card:hover {
+.card-click:hover {
     background: white;
     color: #484141;
 }
@@ -149,13 +149,13 @@ li {
 
 /* Card area and individual cards */
 #card-area {
-    width: 90%;
+    width: 95%;
 }
 
-.card, .active, .closed {
-    font-size: 30px;
-    padding: 15px 10px;
-    margin: 10px;
+.card-click, .active, .closed {
+    font-size: 35px;
+    padding: 20px 15px;
+    margin: 5px;
 }
 
 #dice-area {
@@ -164,8 +164,5 @@ li {
     margin: auto;
 
 }
-
-
-
 
 }

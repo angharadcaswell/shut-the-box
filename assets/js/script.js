@@ -28,10 +28,10 @@ diceInstructions.addEventListener('click', rollDice);
 
 // Find clicked cards and add to "active" class
 
-let cards =document.getElementsByClassName('card');
+let cards =document.getElementsByClassName('card-click');
 function cardSelect() {
     this.classList.add("active");
-    this.classList.remove("card");
+    this.classList.remove("card-click");
     cardDisable();
     
    for (let i=0; i < cardActive.length; i++) {
@@ -47,7 +47,7 @@ let cardActive = document.getElementsByClassName('active');
 
 function cardDeselect() {
   console.log(cardActive);
-    this.classList.add("card");
+    this.classList.add("card-click");
     this.classList.remove("active");
     cardSelect();
    
