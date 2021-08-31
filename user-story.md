@@ -30,8 +30,6 @@
 
 ## As a user, I want to be able to navigate easily between the homepage and the help page. 
 
-![game]()
-
-## As a user, I would like to see my final score.
-
-![game]()
+### There are links between the homepage and the help page. They are easily accessed at the top of the page.
+![game](readmeimages/game.png)
+![game](readmeimages/help-link.png)
