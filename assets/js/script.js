@@ -105,6 +105,6 @@ restart.addEventListener('click', refreshGame);
 // Be able to deselect cards
 // If the cards with class card don't add up to dice then game ends. 
 // add audio
-// accessibility
-// example for help page
+
+// tests and bugs
 
