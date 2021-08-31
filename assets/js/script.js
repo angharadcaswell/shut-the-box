@@ -80,7 +80,7 @@ function cardDisable(){
 
     } else if (sum < diceTotal){
     } else {
-        document.getElementById("dice-instructions").innerHTML= `🚨🚨🚨 The numbers you selected don't add up to ${diceTotal}. Try another card! If there are no cards that add up to the total, then the game is over and your score is `;
+        document.getElementById("dice-instructions").innerHTML= `🚨🚨🚨 The numbers you selected don't add up to ${diceTotal}. Try another card! If there are no cards that add up to the total, then the game is over. `;
     }
     closeBox();
 }
