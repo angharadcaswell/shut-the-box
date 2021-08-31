@@ -1,6 +1,6 @@
 # SHUT THE BOX GAME
 [Link to game](https://angharadcaswell.github.io/shut-the-box/)
-![Mock up images]()
+![Mock up images](readmeimages/mockup.png)
 
 # 1. Project Goals
 Build an application to play Shut the Box game online.

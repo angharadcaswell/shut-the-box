@@ -2,7 +2,7 @@
 
 ## As a user, I want to be able to play “Shut the Box on my phone and desktop. 
 
-![game]()
+![Mock up images](readmeimages/mockup.png)
 
 ## As a user, I want to be taught how to play the game.
 
