@@ -2,7 +2,6 @@
 
 body {
     background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/402/original/wood-background.jpg?1630436766') no-repeat;
-    background-size: cover;
     font-family: "Raleway", sans-serif;
     color: white;
     text-align: center;
@@ -36,7 +35,7 @@ a {
 
 /* Card area and individual cards */
 #card-area {
-    width: 90%;
+    width: 95%;
     margin: auto;
     text-align: center;
 }
@@ -148,9 +147,7 @@ li {
 }
 
 /* Card area and individual cards */
-#card-area {
-    width: 95%;
-}
+
 
 .card-click, .active, .closed {
     font-size: 35px;
