@@ -3,7 +3,7 @@
 let diceTotal = 0;
 let sum = 0;
 
-// Change dice image to random calculated number.
+// Roll dice: Change dice image to random calculated number.
 
 function rollDice() {
    
@@ -24,9 +24,8 @@ function rollDice() {
 let diceInstructions = document.getElementById('dice-instructions');
 diceInstructions.addEventListener('click', rollDice);
 
-// Find clicked cards and add to "active" class
 
-// Find clicked cards and add to "active" class
+// Select cards: Find clicked cards and add to "active" class
 
 let cards =document.getElementsByClassName('card-click');
 function cardSelect() {
@@ -42,7 +41,7 @@ for (let i=0; i < cards.length; i++) {
     cards[i].addEventListener('click', cardSelect);}
 
 
-// Deactivate cards back to card class if the user has selected the wrong one.
+// Unselect cards: Deactivate cards back to card class if the user has selected the wrong one.
 let cardActive = document.getElementsByClassName('active');
 
 function cardDeselect() {
@@ -53,10 +52,9 @@ function cardDeselect() {
    
 }
 
-// Create array of all cards with "active" class. Sum all cards in the array and compare answer to the dice roll total. If correct, change class of card to "closed".
+// Check card total: Create array of all cards with "active" class. Sum all cards in the array and compare answer to the dice roll total. If correct, change class of card to "closed".
 
 function cardDisable(){
-    // let cardActive = document.getElementsByClassName("active");
     let cardArray= [];
     sum = 0
     for (let i=0; i < cardActive.length; i++){
@@ -65,11 +63,9 @@ function cardDisable(){
     for (let i= 0; i < cardActive.length; i++){
     sum += cardArray[i];
     }
-    // console.log(cardArray);
-    // console.log(sum);
+
    
     if (sum === diceTotal) {
-        // console.log("Correct!");
         for (let i=0; i < cardActive.length; i++){
         cardActive[i].classList.add("closed");
        };
@@ -83,10 +79,8 @@ function cardDisable(){
   document.getElementById("dice-instructions").innerHTML= `🎲 🎲 🎲 Nice one! Roll again!`;
 
     } else if (sum < diceTotal){
-        // console.log("select another card!")
     } else {
-        // console.log("Wrong");
-        document.getElementById("dice-instructions").innerHTML= `🚨🚨🚨 The numbers you selected don't add up to ${diceTotal}. Try another card!`;
+        document.getElementById("dice-instructions").innerHTML= `🚨🚨🚨 The numbers you selected don't add up to ${diceTotal}. Try another card! If there are no cards that add up to the total, then the game is over and your score is `;
     }
     closeBox();
 }
@@ -111,7 +105,6 @@ restart.addEventListener('click', refreshGame);
 // Be able to deselect cards
 // If the cards with class card don't add up to dice then game ends. 
 // add audio
-// responsive design
 // accessibility
 // example for help page
 
