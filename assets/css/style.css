@@ -1,7 +1,7 @@
 /* Global styles */
 
 body {
-    background: url('/assets/images/wood-background.jpg') no-repeat;
+    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/402/original/wood-background.jpg?1630436766') no-repeat;
     background-size: cover;
     font-family: "Raleway", sans-serif;
     color: white;
