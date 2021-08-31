@@ -6,11 +6,15 @@
 
 ## As a user, I want to be taught how to play the game.
 
-![game]()
+### The application has a "How to play" page that can be accessed from the homepage. There are simple instructions and example images of the game.
+
+![game](readmeimages/help-page.png)
 
 ## As a user, I want to feel excited when I win the game.
 
-![game]()
+### When the user closes all of the cards (the box) they will recieve a congratulatory message. 
+
+![game](readmeimages/congratulations.png)
 
 ## As a user, I want to be able to refresh the game at any point.
 
