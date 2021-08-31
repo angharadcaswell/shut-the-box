@@ -1,6 +1,7 @@
 # SHUT THE BOX GAME
 [Link to game](https://angharadcaswell.github.io/shut-the-box/)
-![Mock up images](readmeimages/mockup.png)
+![Mock up of home](readmeimages/mockup.png)
+![Mock up of help page](readmeimages/help-mockup.png)
 
 # 1. Project Goals
 Build an application to play Shut the Box game online.
@@ -120,6 +121,7 @@ I created a logo that is a simple line drawing of an open box with the title of 
 
 ## Design test: 
 ### Lighthouse in Devs tools to check fonts and colors are accessible. 
+![Lighthouse check](readmeimages/home-dev.png)
 
 ## Browser test: 
 ### I have check the application works in browsers: Chrome, Firefox, Safari.
@@ -168,7 +170,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 Background image - Photo by FWStudio from Pexels
 
 ## Acknowledgments:
-* My mentor[Precious](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for your help and guidance. 
+* My mentor [Precious](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for your help and guidance. 
 * [Code Institute](https://codeinstitute.net/) student support, slack community and tutorials. 
 
 
