@@ -142,10 +142,10 @@ li {
 /* Tablets: Responsive for screens smaller than 768px */
 
 @media screen and (max-width:768px){
-    .logo {
-        height: 100px;
-        width: 100px;
-    }
+ .logo {
+    height: 100px;
+    width: 100px;
+}
 
 /* Card area and individual cards */
 #card-area {
@@ -154,7 +154,7 @@ li {
 
 .card, .active, .closed {
     font-size: 30px;
-    padding: 10px 10px;
+    padding: 15px 10px;
     margin: 10px;
 }
 
