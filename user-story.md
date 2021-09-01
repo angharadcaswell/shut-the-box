@@ -12,7 +12,7 @@
 
 ## As a user, I want to feel excited when I win the game.
 
-### When the user closes all of the cards (the box) they will recieve a congratulatory message. 
+### When the user closes all of the cards (the box) they will recieve a congratulatory message. There is also a cheering sound when the user wins.
 
 ![game](readmeimages/congratulations.png)
 

@@ -41,9 +41,6 @@ The color of the dice area is #156350 to recreate the area where you would throu
 
 I created a logo that is a simple line drawing of an open box with the title of the game.
 
-### Audio 
-
-
 
 ## 2.3 Wireframes
 
@@ -168,6 +165,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## Media
 Background image - Photo by FWStudio from Pexels
+Sounds - https://mixkit.co/free-sound-effects
 
 ## Acknowledgments:
 * My mentor [Precious](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for your help and guidance. 
