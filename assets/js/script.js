@@ -2,11 +2,13 @@
 
 let diceTotal = 0;
 let sum = 0;
+let woodAudio = new Audio('assets/audio/woodblock.mp3');
+let diceAudio = new Audio ('assets/audio/dice.mp3');
 
 // Roll dice: Change dice image to random calculated number.
 
 function rollDice() {
-   
+    diceAudio.play();
     let diceOneImg = document.getElementById('dice-one');
     let diceTwoImg = document.getElementById('dice-two');
 
@@ -17,7 +19,6 @@ function rollDice() {
     diceOneImg.src =`assets/images/dice${diceOne}.png`;
     diceTwoImg.src =`assets/images/dice${diceTwo}.png`;
 
-    // console.log(diceTotal);
 
 }
 
@@ -33,6 +34,7 @@ let cards =document.getElementsByClassName('card-click');
 function cardSelect() {
     this.classList.add("active");
     this.classList.remove("card-click");
+    woodAudio.play();
     cardDisable();
     
    for (let i=0; i < cardActive.length; i++) {

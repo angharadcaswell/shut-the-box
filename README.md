@@ -165,7 +165,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## Media
 Background image - Photo by FWStudio from Pexels
-Sounds - https://mixkit.co/free-sound-effects
+Celebration Sounds - https://mixkit.co/free-sound-effects
+Wood Sounds - https://samplefocus.com/
+Dice Sounds - SoundSearcher
+
 
 ## Acknowledgments:
 * My mentor [Precious](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for your help and guidance. 
