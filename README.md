@@ -57,8 +57,6 @@ I created a logo that is a simple line drawing of an open box with the title of 
 ### Wrong selection made:
 ![Wrong selection](readmeimages/wrong-selection-mobile.png)
 
-### Play runs out of cards to close (end of game):
-![No options left](readmeimages/no-option-mobile.png)
 
 ### Help page:
 ![Help page](readmeimages/help.png)
@@ -114,7 +112,7 @@ I created a logo that is a simple line drawing of an open box with the title of 
 ![CSS style validated](readmeimages/css-check.png)
 
 ### Used [JSHint Javascript Validator](https://jshint.com/) to test Javascript.
-![JS validated]()
+
 
 
 ## Design test: 
@@ -122,7 +120,7 @@ I created a logo that is a simple line drawing of an open box with the title of 
 ![Lighthouse check](readmeimages/home-dev.png)
 
 ## Browser test: 
-### I have check the application works in browsers: Chrome, Firefox, Safari.
+### I have checked the application works in browsers: Chrome, Firefox, Safari.
 
 ## User Story:
 ###  [User stories with screenshots](user-story.md)
@@ -164,10 +162,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ## 7. Credits
 
 ## Media
-Background image - Photo by FWStudio from Pexels
-Celebration Sounds - https://mixkit.co/free-sound-effects
-Wood Sounds - https://samplefocus.com/
-Dice Sounds - SoundSearcher
+* Background image - Photo by FWStudio from Pexels
+* Celebration Sounds - https://mixkit.co/free-sound-effects
+* Wood Sounds - https://samplefocus.com/
+* Dice Sounds - SoundSearcher
 
 
 ## Acknowledgments:

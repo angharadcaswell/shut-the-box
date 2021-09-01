@@ -117,11 +117,13 @@ li {
     padding-bottom: 5px;
 }
 
+/* Active and closed cards */
+
 .active {
     background: #506d70;
     color: white;
     font-size: 70px;
-    padding: 50px 40px;
+    padding: 50px 30px;
     margin: 10px;
     border-radius: 5px;
     text-align: center; 
@@ -131,7 +133,7 @@ li {
     background: gray;
     color: gray;
     font-size: 70px;
-    padding: 50px 40px;
+    padding: 50px 30px;
     margin: 10px;
     border-radius: 5px;
     text-align: center; 

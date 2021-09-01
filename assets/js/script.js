@@ -108,9 +108,8 @@ function refreshGame(){
 }
 restart.addEventListener('click', refreshGame);
 
-// Be able to deselect cards
-// Final score
-// add audio
+
+
 
 
 
