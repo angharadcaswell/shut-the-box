@@ -89,6 +89,7 @@ I created a logo that is a simple line drawing of an open box with the title of 
 1. 2 player game
 2. Play against the computer
 3. Scoreboard and user name
+4. Computer to calculate when the user has lost.
 
 
 
@@ -162,9 +163,8 @@ To clone the site:
 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-## 9. Bugs:
 
-## 8. Credits:
+## 7. Credits
 
 ## Media
 Background image - Photo by FWStudio from Pexels

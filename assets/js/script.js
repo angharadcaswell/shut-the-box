@@ -21,8 +21,10 @@ function rollDice() {
 
 }
 
+
 let diceInstructions = document.getElementById('dice-instructions');
 diceInstructions.addEventListener('click', rollDice);
+
 
 
 // Select cards: Find clicked cards and add to "active" class
@@ -89,8 +91,10 @@ function cardDisable(){
 
 function closeBox() {
     let cardClosed = document.getElementsByClassName("closed").length;
+    let winAudio = new Audio('assets/audio/celebrate.mp3');
     if (cardClosed=== 9) {
-        document.getElementById("dice-instructions").innerHTML= `💥💥💥 Congratulations, you closed the box!!!`;       
+        document.getElementById("dice-instructions").innerHTML= `💥💥💥 Congratulations, you closed the box!!!`;    
+        winAudio.play();   
     }
     // console.log(cardClosed);
 }
@@ -105,6 +109,6 @@ restart.addEventListener('click', refreshGame);
 // Be able to deselect cards
 // Final score
 // add audio
-// tests and bugs
+
 
 
